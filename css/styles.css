@@ -3,15 +3,41 @@ body {
   background-color: #f0f0f0;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
 }
 
 h1 {
   color: #333;
+  text-align: center;
+  font-size: 65px;
+}
+p{
+  text-align: center;
 }
 #result .green {
   color: #2ecc71;
+  font-size: 35px;
 }
 
 #result .red {
   color: #e74c3c;
+  font-size: 35px;
+}
+#result {
+  text-align: center;
+}
+#userInput {
+  width: 4%;
+  margin-left: 650px;
+  text-align: center;
+}
+#countdown {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 20px; 
+
 }
